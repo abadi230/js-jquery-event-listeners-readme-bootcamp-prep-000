@@ -14,9 +14,9 @@ function frameIt(){
 }
 
 function pressIt(){
-  $(document).on('keydown',function(key){
+  $('#typing').on('keydown',(key)=>{
     
-    if(key.which == 83){
+    if(key.which == 71){
       return alert('You pressed g letter!!')
       
     }
@@ -29,4 +29,5 @@ $(document).ready(function(){
 
 getIt();
 frameIt();
+pressed();
 });
