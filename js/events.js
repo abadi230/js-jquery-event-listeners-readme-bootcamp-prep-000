@@ -30,7 +30,8 @@ function submitIt(){
     if($("input:first").val() === 'g'){
       return alert("Your form is going to be submitted now");
     } else{
-      alert()
+      alert("you entered the wrong value");
+      return
     }
     
     
