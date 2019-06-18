@@ -8,8 +8,8 @@ function getIt(){
 }
 
 function frameIt(){
-  $('img').on('load',()=>{
-     $('img').attr($('.tasty'));
+  $('.tasty').on('load',()=>{
+     $('img');
   })
 }
 
