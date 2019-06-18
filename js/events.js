@@ -24,7 +24,9 @@ function pressIt(){
 }
 
 function submitIt(){
-  $('')
+  $('submit').on("submit", ()=>{
+    alert('')
+  })
 }
 $(document).ready(function(){
 
