@@ -23,6 +23,9 @@ function pressIt(){
   })
 }
 
+function submitIt(){
+  $('')
+}
 $(document).ready(function(){
 
 // call functions here
@@ -30,4 +33,5 @@ $(document).ready(function(){
 getIt();
 frameIt();
 pressIt();
+submitIt();
 });
