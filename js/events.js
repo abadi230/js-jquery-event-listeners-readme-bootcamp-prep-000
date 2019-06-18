@@ -16,7 +16,7 @@ function frameIt(){
 function pressIt(){
   $('input').on('keydown',(e)=>{
     let key = e.key;
-    if(key === "g"){
+    if(key === 'g'){
       return alert('You pressed g letter!!')
       
     }
