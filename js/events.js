@@ -14,7 +14,7 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('#typing').on('keydown',(key)=>{
+  $(document).on('keydown',(key)=>{
     
     if(key.which == 71){
       return alert('You pressed g letter!!')
