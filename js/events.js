@@ -14,11 +14,11 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('#typing').on('keydown',(e)=>{
+  $('input').on('keydown',(e)=>{
     e = e.key;
     if(e === "g"){
       alert('You pressed g letter!!')
-      return;
+      
     }
   })
 }
