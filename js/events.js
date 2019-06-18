@@ -1,4 +1,4 @@
-//define functions here
+11//define functions here
 
 function getIt(){
   $('p').on('click', (e)=>{
@@ -14,7 +14,12 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('')
+  $('#typing').on('keydown',(e)=>{
+    e = e.key;
+    if(e === "g"){
+      alert('You pressed g letter!!')
+    }
+  })
 }
 
 $(document).ready(function(){
