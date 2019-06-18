@@ -9,7 +9,7 @@ function getIt(){
 
 function frameIt(){
   $('img').on('load',()=>{
-     $('img').css('.tasty');
+     $('img').css('border-color','red');
   })
 }
 
