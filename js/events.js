@@ -6,6 +6,11 @@ function getIt(){
     return alert('Hey');
   })
 }
+
+function frameIt(){
+  
+}
+
 $(document).ready(function(){
 
 // call functions here
