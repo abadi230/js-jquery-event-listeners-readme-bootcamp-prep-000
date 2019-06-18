@@ -27,7 +27,12 @@ function pressIt(){
 
 function submitIt(){
   $('form').on('submit', ()=>{
-    return alert("Your form is going to be submitted now");
+    if($("input:first").val() === 'g'){
+      return alert("Your form is going to be submitted now");
+    } else{
+      alert()
+    }
+    
     
   })
 }
