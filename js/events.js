@@ -29,9 +29,6 @@ function submitIt(){
   $('form').on('submit', ()=>{
     if($("input:first").val() === 'g'){
        alert("Your form is going to be submitted now");
-    } else{
-      alert("you entered the wrong value");
-      
     }
     
     
