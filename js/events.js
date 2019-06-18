@@ -18,6 +18,7 @@ function pressIt(){
     e = e.key;
     if(e === "g"){
       alert('You pressed g letter!!')
+      return;
     }
   })
 }
