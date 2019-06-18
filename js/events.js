@@ -8,7 +8,7 @@ function getIt(){
 }
 
 function frameIt(){
-  $('img').on('load',()=>{
+  $('img').one('load',()=>{
     // return $('.tasty').append($('img'));
      $('img').load('.tasty');
   })
