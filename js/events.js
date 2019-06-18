@@ -10,7 +10,7 @@ function getIt(){
 function frameIt(){
   $('img').on('load',()=>{
     // return $('.tasty').append($('img'));
-     $(this).load('.tasty');
+     $('img').load('.tasty');
   })
 }
 
