@@ -31,7 +31,7 @@ function submitIt(){
       return alert("Your form is going to be submitted now");
     } else{
       alert("you entered the wrong value");
-      return
+      return;
     }
     
     
